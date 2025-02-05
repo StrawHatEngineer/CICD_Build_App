@@ -19,6 +19,12 @@ jobs:
   migrate_to_target:
     name: Migration to Target
     runs-on: ubuntu-latest
+    env:
+      SOURCE_HOST_URL: ${{ secrets.SOURCE_HOST_URL }}
+      SOURCE_TOKEN: ${{ secrets.SOURCE_TOKEN }}
+      TARGET_HOST_URL: ${{ secrets.TARGET_HOST_URL }}
+      TARGET_TOKEN: ${{ secrets.TARGET_TOKEN }}
+      
     if: github.event.pull_request.merged == true
     steps:
       - name: Check out code
