@@ -102,6 +102,8 @@ jobs:
       - name: Create Tag for Release
         if: success()
         run: |
+          git config --global user.email "no-reply@github.com"
+          git config --global user.name "GitHub Actions"
           APP_RELEASE_VERSION=$(jq -r '.appReleaseVersion' app_details.json)
           git tag -a "v${APP_RELEASE_VERSION}" -m "Release version ${APP_RELEASE_VERSION}"
           git push origin "v${APP_RELEASE_VERSION}"
