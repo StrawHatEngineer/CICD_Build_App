@@ -1,3 +1,5 @@
+name: Migrate to Target
+
 on:
   pull_request:
     types:
@@ -19,6 +21,12 @@ jobs:
   migrate_to_target:
     name: Migration to Target
     runs-on: ubuntu-latest
+    env:
+      SOURCE_HOST_URL: ${{ secrets.SOURCE_HOST_URL }}
+      SOURCE_TOKEN: ${{ secrets.SOURCE_TOKEN }}
+      TARGET_HOST_URL: ${{ secrets.TARGET_HOST_URL }}
+      TARGET_TOKEN: ${{ secrets.TARGET_TOKEN }}
+      
     if: github.event.pull_request.merged == true
     steps:
       - name: Check out code
@@ -89,5 +97,12 @@ jobs:
           elif [ "$IS_ADVANCED" = "true" ] && [ -n "$SB_NAME" ] && [ "$SB_NAME" != "null" ]; then
             promote-sb-solution --promote_solution_to_target --publish_advanced_app $DEPLOY_FLAG $DEPS_FLAG
           else
-            promote-build-solution --upload_binary --publish_advanced_app $DEPLOY_FLAG $REBUILD_FLAG
+            promote-build-solution --publish_build_app $DEPLOY_FLAG $REBUILD_FLAG
           fi
+
+      - name: Create Tag for Release
+        if: success()
+        run: |
+          APP_RELEASE_VERSION=$(jq -r '.appReleaseVersion' app_details.json)
+          git tag -a "v${APP_RELEASE_VERSION}" -m "Release version ${APP_RELEASE_VERSION}"
+          git push origin "v${APP_RELEASE_VERSION}"
