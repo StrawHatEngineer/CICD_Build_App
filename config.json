@@ -8,7 +8,7 @@
         "org": "aihub-uat-internal",
         "workspace": "CICD_Testing",
         "app_id": "c7da2da0-b68d-41e3-b92d-2d556d2772a3",
-        "deployment_id": "0194a7c6-8473-79f6-b118-f34c4aac8ca0",
+        "deployment_id": "",
         "dependencies": []
     },
     "target": {
