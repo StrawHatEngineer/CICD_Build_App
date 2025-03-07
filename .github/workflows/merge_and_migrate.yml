@@ -1,15 +1,6 @@
 name: Migrate to Target
 
 on:
-  pull_request:
-    types:
-      - closed
-    branches:
-      - main
-    paths-ignore:
-      - "README.md"
-      - "Contributing.md"
-      - ".github/**"
   workflow_dispatch:
     inputs:
       branch:
@@ -27,18 +18,16 @@ jobs:
       TARGET_HOST_URL: ${{ secrets.TARGET_HOST_URL }}
       TARGET_TOKEN: ${{ secrets.TARGET_TOKEN }}
       
-    if: github.event.pull_request.merged == true
     steps:
       - name: Check out code
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.inputs.branch || github.event.pull_request.base.ref }}
+          ref: ${{ github.event.inputs.branch }}
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pipx
-          # Attempt to install from local file first
           VERSION=$(ls cicd_aihub-*-py3-none-any.whl | sed 's/cicd_aihub-\(.*\)-py3-none-any.whl/\1/' | head -n 1)
 
           if [ -n "$VERSION" ]; then
@@ -50,7 +39,7 @@ jobs:
             VERSION=$(echo $LATEST_RELEASE | sed 's/^v//')
             
             if ! pipx install https://github.com/instabase/aihub-apps-ci-cd-workflows/releases/download/${LATEST_RELEASE}/cicd_aihub-${VERSION}-py3-none-any.whl; then
-              echo "Failed to install from GitHub release after failing to find local .whl file. Aborting."
+              echo "Failed to install from GitHub release. Aborting."
               exit 1
             fi
           fi
@@ -77,20 +66,9 @@ jobs:
           DEPENDENCIES=$(jq -r '.source.dependencies' config.json)
           REBUILD=$(jq -r '.settings.rebuild' config.json)
 
-          DEPLOY_FLAG=""
-          if [ -n "$DEPLOYMENT_ID" ] && [ "$DEPLOYMENT_ID" != "null" ]; then
-            DEPLOY_FLAG="--create_deployment"
-          fi
-
-          DEPS_FLAG=""
-          if [ -n "$DEPENDENCIES" ] && [ "$DEPENDENCIES" != "null" ]; then
-            DEPS_FLAG="--upload_dependencies"
-          fi
-
-          REBUILD_FLAG=""
-          if [ "$REBUILD" = "true" ]; then
-            REBUILD_FLAG="--rebuild"
-          fi
+          DEPLOY_FLAG=$([ -n "$DEPLOYMENT_ID" ] && [ "$DEPLOYMENT_ID" != "null" ] && echo "--create_deployment")
+          DEPS_FLAG=$([ -n "$DEPENDENCIES" ] && [ "$DEPENDENCIES" != "null" ] && echo "--upload_dependencies")
+          REBUILD_FLAG=$([ "$REBUILD" = "true" ] && echo "--rebuild")
 
           if [ "$IS_ADVANCED" = "true" ] && [ -n "$FLOW_PATH" ] && [ "$FLOW_PATH" != "null" ]; then
             promote-solution --promote_solution_to_target --publish_advanced_app $DEPLOY_FLAG $DEPS_FLAG
@@ -100,9 +78,14 @@ jobs:
             promote-build-solution --publish_build_app $DEPLOY_FLAG $REBUILD_FLAG
           fi
 
+      - name: Configure Git Identity
+        run: |
+          git config user.email "no-reply@github.com"
+          git config user.name "GitHub Actions"
+
       - name: Create Tag for Release
         if: success()
         run: |
-          APP_RELEASE_VERSION=$(jq -r '.appReleaseVersion' app_details.json)
+          APP_RELEASE_VERSION=$(jq -r '.version' app_details.json)
           git tag -a "v${APP_RELEASE_VERSION}" -m "Release version ${APP_RELEASE_VERSION}"
           git push origin "v${APP_RELEASE_VERSION}"
