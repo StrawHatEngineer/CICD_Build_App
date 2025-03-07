@@ -1,12 +1,12 @@
 {
     "source": {
         "is_advanced" : false,
-        "project_id": "01901a6a-5ebe-7ecf-b3e0-266786ad4b65",
+        "project_id": "0194ff84-e2ef-70ec-9116-e5e42771ddd1",
         "flow_path": "",
         "sb_name": "",
         "flow_name": "",
         "org": "aihub-uat-internal",
-        "workspace": "vinay.thapa_instabase.com",
+        "workspace": "CICD_Testing",
         "app_id": "c7da2da0-b68d-41e3-b92d-2d556d2772a3",
         "deployment_id": "0194a7c6-8473-79f6-b118-f34c4aac8ca0",
         "dependencies": []
