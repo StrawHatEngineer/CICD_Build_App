@@ -1,0 +1,158 @@
+{
+    "last_updated": 1739453699000,
+    "rules": [
+        {
+            "affected_fields": [
+                82332
+            ],
+            "alert_level": "FAILURE",
+            "created_at": 1739453697000,
+            "description": "Confidence validation rule for Vendor",
+            "id": 5216,
+            "input_fields": [
+                82332
+            ],
+            "name": "Rule 1",
+            "params": {
+                "confidence_threshold": 0.95
+            },
+            "scope": "FIELD",
+            "type": "CONFIDENCE",
+            "updated_at": 1739453697000
+        },
+        {
+            "affected_fields": [
+                82339
+            ],
+            "alert_level": "FAILURE",
+            "created_at": 1739453698000,
+            "description": "Confidence validation rule for Bank Name",
+            "id": 5217,
+            "input_fields": [
+                82339
+            ],
+            "name": "Rule 2",
+            "params": {
+                "confidence_threshold": 0.95
+            },
+            "scope": "FIELD",
+            "type": "CONFIDENCE",
+            "updated_at": 1739453698000
+        },
+        {
+            "affected_fields": [
+                82336
+            ],
+            "alert_level": "FAILURE",
+            "created_at": 1739453698000,
+            "description": "Confidence validation rule for Statement End Date",
+            "id": 5218,
+            "input_fields": [
+                82336
+            ],
+            "name": "Rule 3",
+            "params": {
+                "confidence_threshold": 0.95
+            },
+            "scope": "FIELD",
+            "type": "CONFIDENCE",
+            "updated_at": 1739453698000
+        },
+        {
+            "affected_fields": [
+                82337
+            ],
+            "alert_level": "FAILURE",
+            "created_at": 1739453698000,
+            "description": "Confidence validation rule for Transactions",
+            "id": 5219,
+            "input_fields": [
+                82337
+            ],
+            "name": "Rule 4",
+            "params": {
+                "confidence_threshold": 0.95
+            },
+            "scope": "FIELD",
+            "type": "CONFIDENCE",
+            "updated_at": 1739453698000
+        },
+        {
+            "affected_fields": [
+                82333
+            ],
+            "alert_level": "FAILURE",
+            "created_at": 1739453698000,
+            "description": "",
+            "id": 5220,
+            "input_fields": [
+                82333,
+                82334
+            ],
+            "name": "Rule 5",
+            "params": {
+                "udf_id": 5672
+            },
+            "scope": "FIELD",
+            "type": "UDF",
+            "updated_at": 1739453698000
+        },
+        {
+            "affected_fields": [
+                82338
+            ],
+            "alert_level": "FAILURE",
+            "created_at": 1739453699000,
+            "description": "Confidence validation rule for Statement Country",
+            "id": 5221,
+            "input_fields": [
+                82338
+            ],
+            "name": "Rule 6",
+            "params": {
+                "confidence_threshold": 0.95
+            },
+            "scope": "FIELD",
+            "type": "CONFIDENCE",
+            "updated_at": 1739453699000
+        },
+        {
+            "affected_fields": [
+                82339
+            ],
+            "alert_level": "FAILURE",
+            "created_at": 1739453699000,
+            "description": "",
+            "id": 5222,
+            "input_fields": [
+                82339
+            ],
+            "name": "Rule 7",
+            "params": {
+                "udf_id": 5673
+            },
+            "scope": "FIELD",
+            "type": "UDF",
+            "updated_at": 1739453699000
+        },
+        {
+            "affected_fields": [
+                82339
+            ],
+            "alert_level": "FAILURE",
+            "created_at": 1739453699000,
+            "description": "Validation prompt",
+            "id": 5223,
+            "input_fields": [
+                82339
+            ],
+            "name": "Rule 8",
+            "params": {
+                "udf_id": 5674
+            },
+            "scope": "FIELD",
+            "type": "UDF",
+            "updated_at": 1739453699000
+        }
+    ]
+}

@@ -1,30 +1,31 @@
 {
     "source": {
-        "is_advanced" : true,
-        "host_url": "https://ci-cd-test-1.internal.instabase.com", 
-        "token": "v3b43OQ1uzLPD0Y2KASjaOdz0PZuEG",  
-        "project_id": "0194a79d-bbcd-79de-ad84-56cf154b91df", 
+        "is_advanced" : false,
+        "project_id": "0194ff84-e2ef-70ec-9116-e5e42771ddd1",
         "flow_path": "",
         "sb_name": "",
         "flow_name": "",
-        "org": "SolEng",
-        "workspace": "CI-CD",
-        "app_id": "",
+        "org": "aihub-uat-internal",
+        "workspace": "CICD_Testing",
+        "app_id": "c7da2da0-b68d-41e3-b92d-2d556d2772a3",
         "deployment_id": "",
         "dependencies": []
     },
     "target": {
-        "host_url": "https://ci-cd-test-2.internal.instabase.com",   
-        "token": "MPf5vjf4ZziLK1HE7Xq8ejERNTCREf",   
-        "org": "SolEng",
-        "workspace": "CI-CD"              
+        "org": "ib-internal",
+        "workspace": "CICD"
     },
     "settings": {
-        "rebuild": false
+        "rebuild": true
     },
-    "testing": {
-        "regression": {}
+    "regression": {
+        "IS_ADVANCED": true,
+        "INPUT_FOLDER_PATH": "aihub-uat-internal/SolEng_workspace/fs/Instabase Drive/Varun Nandan - DND/Inputs",
+        "OUT_FILES_PATH": "aihub-uat-internal/vinay.thapa_instabase.com/fs/Instabase Drive/CICD/regression_output",
+        "GOLDEN_FILE_PATH": "aihub-uat-internal/SolEng_workspace/fs/Instabase Drive/Varun Nandan - DND/Goldens/KYC_Goldens.xlsx",
+        "GOLDEN_METRICS_PATH": "aihub-uat-internal/vinay.thapa_instabase.com/fs/Instabase Drive/files/2025/03/04/KYC_Advanced_App/KYC_Advanced_App_metrics.json",
+        "ACCURACY_DROP_ALLOWED": 0,
+        "ACCURACY_DROP_FIELDS_ALLOWED_COUNT": 0
     },
-    "release_notes": "initial release v0.0.1"
+    "release_notes": "v0.0.1"
 }
-

@@ -1,0 +1,25 @@
+{
+    "appReleaseVersion": "25.08",
+    "author": "support-testing.aihub-uat-internal-org-admin_instabase.com",
+    "contextAccount": "aihub-uat-internal",
+    "createdAtMs": "1741006513000",
+    "description": "No release notes",
+    "id": "c7da2da0-b68d-41e3-b92d-2d556d2772a3",
+    "isCustomizable": false,
+    "linkSharingMode": "OFF",
+    "metadata": "{\"authors\": [\"support-testing.aihub-uat-internal-org-admin_instabase.com\"], \"icon\": \"icon.png\", \"samples\": \"\", \"results\": \"\", \"schema\": \"schema.json\", \"is_advanced\": true, \"billing_model\": \"custom\", \"is_copy_of_existing_app\": false}",
+    "name": "KYC_Advanced_App",
+    "owner": "instabase",
+    "ownerFullName": "",
+    "sharedAccounts": [
+        "aihub-uat-internal"
+    ],
+    "solutionType": "EXTRACTION",
+    "solution_path": "system/global/fs/Instabase Drive/Applications/Deployed/All/c7da2da0-b68d-41e3-b92d-2d556d2772a3",
+    "state": "PRODUCTION",
+    "summary": "Advanced App for Regression",
+    "updateMode": "UPDATE_WHEN_EXPIRED",
+    "updatedAtMs": "1741006524000",
+    "version": "0.0.1",
+    "visibility": "PRIVATE"
+}
