@@ -1,30 +1,29 @@
 {
     "source": {
-        "is_advanced" : true,
-        "host_url": "https://ci-cd-test-1.internal.instabase.com", 
-        "token": "v3b43OQ1uzLPD0Y2KASjaOdz0PZuEG",  
-        "project_id": "0194a79d-bbcd-79de-ad84-56cf154b91df", 
+        "is_advanced" : false,
+        "project_id": "01952bca-2453-7908-a9e8-31a8cde7a1ff",
         "flow_path": "",
         "sb_name": "",
         "flow_name": "",
-        "org": "SolEng",
-        "workspace": "CI-CD",
-        "app_id": "",
+        "org": "ib-internal",
+        "workspace": "CICD",
+        "app_id": "46887f50-42ec-46d0-8cbc-0fd344244f6b",
         "deployment_id": "",
         "dependencies": []
     },
     "target": {
-        "host_url": "https://ci-cd-test-2.internal.instabase.com",   
-        "token": "MPf5vjf4ZziLK1HE7Xq8ejERNTCREf",   
-        "org": "SolEng",
-        "workspace": "CI-CD"              
+        "org": "aihub-uat-internal",
+        "workspace": "CICD_Testing"
     },
     "settings": {
-        "rebuild": false
+        "rebuild": true
     },
-    "testing": {
-        "regression": {}
+    "regression": {
+        "IS_ADVANCED": false,
+        "GOLDEN_ID": 129,
+        "ACCURACY_RUN_ID" : 201,
+        "ACCURACY_DROP_ALLOWED": 6,
+        "ACCURACY_DROP_FIELDS_ALLOWED_COUNT": 2
     },
-    "release_notes": "initial release v0.0.1"
+    "release_notes": "v0.0.1"
 }
-

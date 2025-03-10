@@ -1,0 +1,230 @@
+{
+    "records": [
+        {
+            "output_file_path": "ib-internal/vinay.thapa_instabase.com/fs/Instabase Drive/app-runs/46887f50-42ec-46d0-8cbc-0fd344244f6b/f9184212-5c2c-4897-8cbb-e4ebc9e5dfcd/s8_combine/Sample file 1.jpg.ibmsg",
+            "results": [
+                {
+                    "key": "Name",
+                    "value": "JOSHUA DARRYL SUMRALL",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.99907565
+                },
+                {
+                    "key": "Driver_License_Number",
+                    "value": "H13732774",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9999998
+                },
+                {
+                    "key": "Address",
+                    "value": "2557 FORBES DR BELLEVUE, NE 68123",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9820134
+                },
+                {
+                    "key": "Date_Of_Birth",
+                    "value": "12/22/1992",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9999998
+                },
+                {
+                    "key": "Expire_Date",
+                    "value": "12/22/2019",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9999996
+                },
+                {
+                    "key": "Issue_Date",
+                    "value": "09/06/2018",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9999997
+                },
+                {
+                    "key": "Gender",
+                    "value": "M",
+                    "field_type": "TEXT",
+                    "model_confidence": 1.0
+                },
+                {
+                    "key": "State",
+                    "value": "NEBRASKA",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.8519378
+                },
+                {
+                    "key": "Country",
+                    "value": "USA",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9954726
+                }
+            ],
+            "record_index": 0,
+            "classification_label": "Driver License",
+            "file_name": "input_0",
+            "document_path": "ib-internal/julia.fung_instabase.com/fs/Instabase Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/input/Sample file 1.jpg",
+            "checkpoint_results": {},
+            "flow_index": 0,
+            "file_index": 0,
+            "is_manually_reviewed": false,
+            "class_score": 0.99997073,
+            "current_step_id": "s8",
+            "is_human_corrected": false,
+            "absolute_ibocr_path": "ib-internal/vinay.thapa_instabase.com/fs/Instabase Drive/app-runs/46887f50-42ec-46d0-8cbc-0fd344244f6b/f9184212-5c2c-4897-8cbb-e4ebc9e5dfcd/s1_process_files/Sample file 1.jpg.ibmsg",
+            "was_classified": true,
+            "is_finalized": true
+        },
+        {
+            "output_file_path": "ib-internal/vinay.thapa_instabase.com/fs/Instabase Drive/app-runs/46887f50-42ec-46d0-8cbc-0fd344244f6b/f9184212-5c2c-4897-8cbb-e4ebc9e5dfcd/s8_combine/Sample file 2.JPG.ibmsg",
+            "results": [
+                {
+                    "key": "Name",
+                    "value": "JOSE LUIS LOPEZ",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.99986845
+                },
+                {
+                    "key": "Driver_License_Number",
+                    "value": "LOP-62-5388",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.7129623
+                },
+                {
+                    "key": "Address",
+                    "value": "2723 27TH ST WAPT 109 WILLISTON, ND 58801",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.99992484
+                },
+                {
+                    "key": "Date_Of_Birth",
+                    "value": "12/09/1962",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9999998
+                },
+                {
+                    "key": "Expire_Date",
+                    "value": "09/09/2019",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9999996
+                },
+                {
+                    "key": "Issue_Date",
+                    "value": "04/02/2019",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9999998
+                },
+                {
+                    "key": "Gender",
+                    "value": "M",
+                    "field_type": "TEXT",
+                    "model_confidence": 1.0
+                },
+                {
+                    "key": "State",
+                    "value": "North Dakota",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9989266
+                },
+                {
+                    "key": "Country",
+                    "value": "USA",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.999993
+                }
+            ],
+            "record_index": 0,
+            "classification_label": "Driver License",
+            "file_name": "input_1",
+            "document_path": "ib-internal/julia.fung_instabase.com/fs/Instabase Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/input/Sample file 2.JPG",
+            "checkpoint_results": {},
+            "flow_index": 0,
+            "file_index": 1,
+            "is_manually_reviewed": false,
+            "class_score": 0.999986,
+            "current_step_id": "s8",
+            "is_human_corrected": false,
+            "absolute_ibocr_path": "ib-internal/vinay.thapa_instabase.com/fs/Instabase Drive/app-runs/46887f50-42ec-46d0-8cbc-0fd344244f6b/f9184212-5c2c-4897-8cbb-e4ebc9e5dfcd/s1_process_files/Sample file 2.JPG.ibmsg",
+            "was_classified": true,
+            "is_finalized": true
+        },
+        {
+            "output_file_path": "ib-internal/vinay.thapa_instabase.com/fs/Instabase Drive/app-runs/46887f50-42ec-46d0-8cbc-0fd344244f6b/f9184212-5c2c-4897-8cbb-e4ebc9e5dfcd/s8_combine/Sample file 3.jpeg.ibmsg",
+            "results": [
+                {
+                    "key": "Name",
+                    "value": "JOSE MANUEL RAMIREZ",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.99993604
+                },
+                {
+                    "key": "Driver_License_Number",
+                    "value": "D06290514",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.99979603
+                },
+                {
+                    "key": "Address",
+                    "value": "4429 W POINSETTIA DR GLENDALE, AZ 85304-3505",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9996646
+                },
+                {
+                    "key": "Date_Of_Birth",
+                    "value": "11/10/1980",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9999997
+                },
+                {
+                    "key": "Expire_Date",
+                    "value": "11/10/2045",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9999997
+                },
+                {
+                    "key": "Issue_Date",
+                    "value": "06/04/2016",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9999998
+                },
+                {
+                    "key": "Gender",
+                    "value": "M",
+                    "field_type": "TEXT",
+                    "model_confidence": 1.0
+                },
+                {
+                    "key": "State",
+                    "value": "Arizona",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.99908584
+                },
+                {
+                    "key": "Country",
+                    "value": "USA",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.9995178
+                }
+            ],
+            "record_index": 0,
+            "classification_label": "Driver License",
+            "file_name": "input_2",
+            "document_path": "ib-internal/julia.fung_instabase.com/fs/Instabase Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/input/Sample file 3.jpeg",
+            "checkpoint_results": {},
+            "flow_index": 0,
+            "file_index": 2,
+            "is_manually_reviewed": false,
+            "class_score": 0.99997824,
+            "current_step_id": "s8",
+            "is_human_corrected": false,
+            "absolute_ibocr_path": "ib-internal/vinay.thapa_instabase.com/fs/Instabase Drive/app-runs/46887f50-42ec-46d0-8cbc-0fd344244f6b/f9184212-5c2c-4897-8cbb-e4ebc9e5dfcd/s1_process_files/Sample file 3.jpeg.ibmsg",
+            "was_classified": true,
+            "is_finalized": true
+        }
+    ],
+    "binary_path": "system/global/fs/Instabase Drive/Applications/Deployed/All/46887f50-42ec-46d0-8cbc-0fd344244f6b/bin/DL Test Build App-1.0.1.ibflowbin",
+    "job_id": "85e1a1ae-d422-44dd-89cf-e3c9ab008e6d",
+    "num_tasks": 3,
+    "has_more_tasks": false,
+    "next_offset": 3,
+    "can_resume": false,
+    "on_last_resumable_step": false
+}
