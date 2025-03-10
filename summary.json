@@ -1,0 +1,32 @@
+{
+    "DL Test Build App": {
+        "Accuracy_Deviation_URL": "https://aihub.instabase.com/ib-internal/CICD/fs/Instabase%20Drive/CICD/regression_output/2025/03/10/DL%20Test%20Build%20App/DL%20Test%20Build%20App_accuracy_deviation.json",
+        "App_Name": "DL Test Build App",
+        "App_UUID": "46887f50-42ec-46d0-8cbc-0fd344244f6b",
+        "Application_Run_Job_ID": "3f8950db-6a09-4e76-95e3-295983811937",
+        "Benchmarked_Metrics_URL": "https://aihub.instabase.com/ib-internal/julia.fung_instabase.com/fs/Instabase%20Drive/accuracy-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/b5dd8ecb-f51e-4fa6-bb36-8ff39fc267c1/accuracy/metrics.json",
+        "Current_Run_Metrics_URL": "https://aihub.instabase.com/ib-internal/CICD/fs/Instabase%20Drive/CICD/regression_output/2025/03/10/DL%20Test%20Build%20App/DL%20Test%20Build%20App_metrics.json",
+        "Driver License": {
+            "automation": {
+                "Accuracy_Drop_Above_Threshold_Count": 6,
+                "Total_Accuracy_Drop_Count": 6,
+                "Total_Accuracy_Increase_Field_Count": 1,
+                "Total_Accuracy_No_Change_Field_Count": 7,
+                "Total_Fields": 14
+            },
+            "automation_accuracy": {
+                "Accuracy_Drop_Above_Threshold_Count": 6,
+                "Total_Accuracy_Drop_Count": 6,
+                "Total_Accuracy_Increase_Field_Count": 1,
+                "Total_Accuracy_No_Change_Field_Count": 7,
+                "Total_Fields": 14
+            }
+        },
+        "Extracted_And_Golden_Data_Aggregated_URL": "https://aihub.instabase.com/ib-internal/CICD/fs/Instabase%20Drive/CICD/regression_output/2025/03/10/DL%20Test%20Build%20App/raw_data_aggregated_by_record_and_field.json",
+        "IB_Flow_Results_JSON_URL": "https://aihub.instabase.com/ib-internal/CICD/fs/Instabase%20Drive/CICD/regression_output/2025/03/10/DL%20Test%20Build%20App/ibflowresults_resp.json",
+        "Note": "Automation Rate dropped for the following fields: [{\"Class\": \"33.30%\"}, {\"Height\": \"100.00%\"}, {\"Weight\": \"33.30%\"}, {\"Eye_Color\": \"100.00%\"}, {\"Hair_Color\": \"100.00%\"}, {\"Document_Discriminator_Number\": \"100.00%\"}]\\n Validated Accuracy dropped for the following fields: [{\"Class\": \"100.00%\"}, {\"Height\": \"100.00%\"}, {\"Weight\": \"100.00%\"}, {\"Eye_Color\": \"100.00%\"}, {\"Hair_Color\": \"100.00%\"}, {\"Document_Discriminator_Number\": \"100.00%\"}]",
+        "Summary_Path": "ib-internal/CICD/fs/Instabase Drive/CICD/regression_output/2025/03/10/DL Test Build App/summary.json",
+        "Test_Runner_Job_ID": "11c9e5a6-b4c9-4a47-8fb9-17b1851264b4",
+        "Test_Status": "Failed"
+    }
+}
