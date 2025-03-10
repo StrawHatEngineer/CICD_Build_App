@@ -86,8 +86,8 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global --add safe.directory /__w/${{ github.event.repository.name }}/*
           COMMIT_MESSAGE="Regression Results added"
-          git add -f regression_output/
           git status
+          git add -f regression_output/
           git commit -m "$COMMIT_MESSAGE" --allow-empty
           git fetch origin ${{ github.head_ref }}
           git rebase origin/${{ github.head_ref }}
