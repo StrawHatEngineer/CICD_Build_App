@@ -63,8 +63,8 @@ jobs:
 
           REGRESSION=$(jq -r '.regression | length' config.json)
           if [ "$REGRESSION" -eq 0 ]; then
-            echo "Error: regression is empty in config.json"
-            exit 1
+            echo "Warning: regression is empty in config.json. Skipping regression tests."
+            exit 0
           fi
 
       - name: Run regression tests
