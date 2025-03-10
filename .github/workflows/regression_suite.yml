@@ -61,9 +61,9 @@ jobs:
             exit 1
           fi
 
-          REGRESSION=$(jq -r '.regression' config.json)
-          if [ -z "$REGRESSION" ] || [ "$REGRESSION" = "null" ]; then
-            echo "Error: regression is missing or null in config.json"
+          REGRESSION=$(jq -r '.regression | length' config.json)
+          if [ "$REGRESSION" -eq 0 ]; then
+            echo "Error: regression is empty in config.json"
             exit 1
           fi
 
