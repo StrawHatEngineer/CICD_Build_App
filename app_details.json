@@ -1,0 +1,22 @@
+{
+    "appReleaseVersion": "",
+    "author": "vinay.thapa_instabase.com",
+    "contextAccount": "ib-internal",
+    "createdAtMs": "1741328425000",
+    "description": "No release notes",
+    "id": "46887f50-42ec-46d0-8cbc-0fd344244f6b",
+    "isCustomizable": false,
+    "linkSharingMode": "OFF",
+    "metadata": "{\"authors\": [\"vinay.thapa_instabase.com\"], \"icon\": \"icon.png\", \"samples\": \"\", \"results\": \"\", \"schema\": \"schema.json\", \"project_id\": \"01952bca-2453-7908-a9e8-31a8cde7a1ff\", \"billing_model\": \"default\", \"has_project_snapshot\": true, \"org_context_type\": \"ENTERPRISE\", \"is_copy_of_existing_app\": false}",
+    "name": "DL Test Build App",
+    "owner": "vinay.thapa_instabase.com",
+    "ownerFullName": "Vinay  Thapa",
+    "solutionType": "EXTRACTION",
+    "solution_path": "system/global/fs/Instabase Drive/Applications/Deployed/All/46887f50-42ec-46d0-8cbc-0fd344244f6b",
+    "state": "ACTIVE",
+    "summary": "No summary",
+    "updateMode": "AUTO_UPDATE",
+    "updatedAtMs": "1741328432000",
+    "version": "1.0.1",
+    "visibility": "PRIVATE"
+}
