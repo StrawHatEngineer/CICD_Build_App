@@ -21,6 +21,7 @@ jobs:
   migrate_to_target:
     name: Migration to Target
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
     env:
       SOURCE_HOST_URL: ${{ secrets.SOURCE_HOST_URL }}
       SOURCE_TOKEN: ${{ secrets.SOURCE_TOKEN }}
