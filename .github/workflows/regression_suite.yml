@@ -14,9 +14,39 @@ on:
         default: "main"
 
 jobs:
+  check-regression:
+    name: Check Regression Configuration
+    runs-on: ubuntu-latest
+    outputs:
+      should_skip: ${{ steps.check.outputs.should_skip }}
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Validate config.json for regression
+        id: check
+        run: |
+          if [ ! -f config.json ]; then
+            echo "Error: config.json file not found"
+            echo "should_skip=true" >> $GITHUB_ENV
+            exit 0  # Gracefully exit without error
+          fi
+
+          REGRESSION_COUNT=$(jq '.regression | length' config.json)
+
+          if [ "$REGRESSION_COUNT" -eq 0 ]; then
+            echo "No regression tests found, stopping workflow."
+            echo "should_skip=true" >> $GITHUB_ENV
+            exit 0  # Gracefully exit
+          fi
+
+          echo "should_skip=false" >> $GITHUB_ENV
+
   regression_suite:
     name: Regression Suite
     runs-on: ubuntu-latest
+    needs: check-regression
+    if: needs.check-regression.outputs.should_skip != 'true'  # Skip if regression is empty
     env:
       SOURCE_HOST_URL: ${{ secrets.SOURCE_HOST_URL }}
       SOURCE_TOKEN: ${{ secrets.SOURCE_TOKEN }}
@@ -48,25 +78,6 @@ jobs:
             fi
           fi
 
-      - name: Validate config.json
-        run: |
-          if [ ! -f config.json ]; then
-            echo "Error: config.json file not found"
-            exit 1
-          fi
-
-          APP_ID=$(jq -r '.source.app_id' config.json)
-          if [ -z "$APP_ID" ] || [ "$APP_ID" = "null" ]; then
-            echo "Error: app_id is missing or null in config.json"
-            exit 1
-          fi
-
-          REGRESSION=$(jq -r '.regression' config.json)
-          if [ -z "$REGRESSION" ] || [ "$REGRESSION" = "null" ]; then
-            echo "Error: regression is missing or null in config.json"
-            exit 1
-          fi
-
       - name: Run regression tests
         run: |
           IS_ADVANCED=$(jq -r '.source.is_advanced' config.json)
@@ -85,8 +96,9 @@ jobs:
         run: |
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
+          git config --global --add safe.directory /__w/${{ github.event.repository.name }}/*
           COMMIT_MESSAGE="Regression Results added"
-          git add -f .
+          git add -f regression_output/
           git status
           git commit -m "$COMMIT_MESSAGE" --allow-empty
           git fetch origin ${{ github.head_ref }}

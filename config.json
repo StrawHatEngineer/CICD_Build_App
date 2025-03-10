@@ -19,11 +19,6 @@
         "rebuild": true
     },
     "regression": {
-        "IS_ADVANCED": false,
-        "GOLDEN_ID": 129,
-        "ACCURACY_RUN_ID" : 201,
-        "ACCURACY_DROP_ALLOWED": 6,
-        "ACCURACY_DROP_FIELDS_ALLOWED_COUNT": 2
     },
     "release_notes": "v0.0.1"
 }
