@@ -1,0 +1,200 @@
+{
+    "Driver License": {
+        "Name": {
+            "automation": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            },
+            "automation_accuracy": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            }
+        },
+        "Driver_License_Number": {
+            "automation": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            },
+            "automation_accuracy": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            }
+        },
+        "Address": {
+            "automation": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            },
+            "automation_accuracy": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            }
+        },
+        "Date_Of_Birth": {
+            "automation": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            },
+            "automation_accuracy": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            }
+        },
+        "Expire_Date": {
+            "automation": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            },
+            "automation_accuracy": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            }
+        },
+        "Issue_Date": {
+            "automation": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            },
+            "automation_accuracy": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            }
+        },
+        "Gender": {
+            "automation": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            },
+            "automation_accuracy": {
+                "change": 0.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "No Change"
+            }
+        },
+        "State": {
+            "automation": {
+                "change": 100.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 0.0,
+                "accuracy_status": "Increased"
+            },
+            "automation_accuracy": {
+                "change": 100.0,
+                "current_run_metric": 100.0,
+                "prev_run_metric": 0.0,
+                "accuracy_status": "Increased"
+            }
+        },
+        "Class": {
+            "automation": {
+                "change": 33.3,
+                "current_run_metric": 0,
+                "prev_run_metric": 33.3,
+                "accuracy_status": "Dropped"
+            },
+            "automation_accuracy": {
+                "change": 100.0,
+                "current_run_metric": 0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "Dropped"
+            }
+        },
+        "Height": {
+            "automation": {
+                "change": 100.0,
+                "current_run_metric": 0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "Dropped"
+            },
+            "automation_accuracy": {
+                "change": 100.0,
+                "current_run_metric": 0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "Dropped"
+            }
+        },
+        "Weight": {
+            "automation": {
+                "change": 33.3,
+                "current_run_metric": 0,
+                "prev_run_metric": 33.3,
+                "accuracy_status": "Dropped"
+            },
+            "automation_accuracy": {
+                "change": 100.0,
+                "current_run_metric": 0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "Dropped"
+            }
+        },
+        "Eye_Color": {
+            "automation": {
+                "change": 100.0,
+                "current_run_metric": 0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "Dropped"
+            },
+            "automation_accuracy": {
+                "change": 100.0,
+                "current_run_metric": 0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "Dropped"
+            }
+        },
+        "Hair_Color": {
+            "automation": {
+                "change": 100.0,
+                "current_run_metric": 0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "Dropped"
+            },
+            "automation_accuracy": {
+                "change": 100.0,
+                "current_run_metric": 0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "Dropped"
+            }
+        },
+        "Document_Discriminator_Number": {
+            "automation": {
+                "change": 100.0,
+                "current_run_metric": 0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "Dropped"
+            },
+            "automation_accuracy": {
+                "change": 100.0,
+                "current_run_metric": 0,
+                "prev_run_metric": 100.0,
+                "accuracy_status": "Dropped"
+            }
+        }
+    }
+}

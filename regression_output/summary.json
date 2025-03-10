@@ -1,0 +1,30 @@
+{
+    "App_Name": "DL Test Build App",
+    "Test_Runner_Job_ID": "ba976abc-29ac-461e-9a31-c9320ccc88dd",
+    "Application_Run_Job_ID": "85e1a1ae-d422-44dd-89cf-e3c9ab008e6d",
+    "App_UUID": "46887f50-42ec-46d0-8cbc-0fd344244f6b",
+    "IB_Flow_Results_JSON_URL": "https://aihub.instabase.com/ib-internal/julia.fung_instabase.com/fs/Instabase%20Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/output/2025/03/10/DL%20Test%20Build%20App/ibflowresults_resp.json",
+    "Extracted_And_Golden_Data_Aggregated_URL": "https://aihub.instabase.com/ib-internal/julia.fung_instabase.com/fs/Instabase%20Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/output/2025/03/10/DL%20Test%20Build%20App/raw_data_aggregated_by_record_and_field.json",
+    "Current_Run_Metrics_URL": "https://aihub.instabase.com/ib-internal/julia.fung_instabase.com/fs/Instabase%20Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/output/2025/03/10/DL%20Test%20Build%20App/DL%20Test%20Build%20App_metrics.json",
+    "Driver License": {
+        "automation": {
+            "Total_Fields": 14,
+            "Total_Accuracy_No_Change_Field_Count": 7,
+            "Total_Accuracy_Increase_Field_Count": 1,
+            "Total_Accuracy_Drop_Count": 6,
+            "Accuracy_Drop_Above_Threshold_Count": 6
+        },
+        "automation_accuracy": {
+            "Total_Fields": 14,
+            "Total_Accuracy_No_Change_Field_Count": 7,
+            "Total_Accuracy_Increase_Field_Count": 1,
+            "Total_Accuracy_Drop_Count": 6,
+            "Accuracy_Drop_Above_Threshold_Count": 6
+        }
+    },
+    "Accuracy_Deviation_URL": "https://aihub.instabase.com/ib-internal/julia.fung_instabase.com/fs/Instabase%20Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/output/2025/03/10/DL%20Test%20Build%20App/DL%20Test%20Build%20App_accuracy_deviation.json",
+    "Test_Status": "Failed",
+    "Note": "Automation Rate dropped for the following fields: [{\"Class\": \"33.30%\"}, {\"Height\": \"100.00%\"}, {\"Weight\": \"33.30%\"}, {\"Eye_Color\": \"100.00%\"}, {\"Hair_Color\": \"100.00%\"}, {\"Document_Discriminator_Number\": \"100.00%\"}]\\n Validated Accuracy dropped for the following fields: [{\"Class\": \"100.00%\"}, {\"Height\": \"100.00%\"}, {\"Weight\": \"100.00%\"}, {\"Eye_Color\": \"100.00%\"}, {\"Hair_Color\": \"100.00%\"}, {\"Document_Discriminator_Number\": \"100.00%\"}]",
+    "Benchmarked_Metrics_URL": "https://aihub.instabase.com/ib-internal/julia.fung_instabase.com/fs/Instabase%20Drive/accuracy-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/b5dd8ecb-f51e-4fa6-bb36-8ff39fc267c1/accuracy/metrics.json",
+    "Summary_Path": "ib-internal/julia.fung_instabase.com/fs/Instabase Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/output/2025/03/10/DL Test Build App/summary.json"
+}
