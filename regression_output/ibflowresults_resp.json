@@ -1,0 +1,1101 @@
+{
+    "records": [
+        {
+            "output_file_path": "ib-internal/vinay.thapa_instabase.com/fs/Instabase Drive/app-runs/99a2562c-abd0-4fcb-ae57-aeddc64679f7/328c6152-b747-4bc5-a612-13e374ee4b01/s17_apply_checkpoint/Sample file 1.jpg.ibmsg",
+            "results": [
+                {
+                    "key": "Payer_Name",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Payer_Address",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Payer_Phone_Number",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Payer_TIN",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Recipient_TIN",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Recipient_Name",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Recipient_Address",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Account_Number",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Rents",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Royalties",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Other_Income",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Form_Type",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "For_Calendar_Year",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Federal_Income_Tax_Withheld",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Fishing_Boat_Proceeds",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Medical_and_Healthcare_Payments",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Substitute_Payments_in_Lieu_of_Dividends",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Crop_Insurance_Proceeds",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Gross_Proceeds_Paid_to_an_Attorney",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Fish_Purchased_for_Resale",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Section_409A_Deferrals",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Non_Qualified_Deferred_Compensation",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                }
+            ],
+            "record_index": 0,
+            "classification_label": "MISC",
+            "file_name": "input_0",
+            "document_path": "ib-internal/julia.fung_instabase.com/fs/Instabase Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/input/Sample file 1.jpg",
+            "checkpoint_results": {
+                "results": [
+                    {
+                        "valid": false,
+                        "msg": "Actual confidence 0.4541516602039337 was below the configured threshold 0.85",
+                        "type": "classification-custom",
+                        "details": {
+                            "err_msg": "Failed to deserialize JSON object. ERROR: Expecting value: line 1 column 1 (char 0)"
+                        }
+                    }
+                ],
+                "step_index": 0,
+                "record_index": 0,
+                "valid": false,
+                "flow_path_in_binary": "project/flows/codelabs.ibflow",
+                "step_id": "s17",
+                "validation_results": {
+                    "Section_409A_Deferrals": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Royalties": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Other_Income": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Rents": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Medical_and_Healthcare_Payments": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Payer_Address": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Gross_Proceeds_Paid_to_an_Attorney": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Payer_Name": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Form_Type": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Crop_Insurance_Proceeds": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Recipient_TIN": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Fish_Purchased_for_Resale": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Non_Qualified_Deferred_Compensation": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Recipient_Address": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Federal_Income_Tax_Withheld": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Fishing_Boat_Proceeds": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Substitute_Payments_in_Lieu_of_Dividends": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Account_Number": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Payer_TIN": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Recipient_Name": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "For_Calendar_Year": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Payer_Phone_Number": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    }
+                }
+            },
+            "flow_index": 0,
+            "file_index": 0,
+            "is_manually_reviewed": false,
+            "class_score": 0.45415166,
+            "current_step_id": "s17",
+            "is_human_corrected": false,
+            "is_deleted": false,
+            "absolute_ibocr_path": "ib-internal/vinay.thapa_instabase.com/fs/Instabase Drive/app-runs/99a2562c-abd0-4fcb-ae57-aeddc64679f7/328c6152-b747-4bc5-a612-13e374ee4b01/s1_process_files/Sample file 1.jpg.ibmsg",
+            "was_classified": true,
+            "is_finalized": true
+        },
+        {
+            "output_file_path": "ib-internal/vinay.thapa_instabase.com/fs/Instabase Drive/app-runs/99a2562c-abd0-4fcb-ae57-aeddc64679f7/328c6152-b747-4bc5-a612-13e374ee4b01/s17_apply_checkpoint/Sample file 2.JPG.ibmsg",
+            "results": [
+                {
+                    "key": "Payer_Name",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Payer_Address",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Payer_Phone_Number",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Payer_TIN",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Recipient_TIN",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Recipient_Name",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Recipient_Address",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Account_Number",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Rents",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Royalties",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Other_Income",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Form_Type",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "For_Calendar_Year",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Federal_Income_Tax_Withheld",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Fishing_Boat_Proceeds",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Medical_and_Healthcare_Payments",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Substitute_Payments_in_Lieu_of_Dividends",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Crop_Insurance_Proceeds",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Gross_Proceeds_Paid_to_an_Attorney",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Fish_Purchased_for_Resale",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Section_409A_Deferrals",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Non_Qualified_Deferred_Compensation",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                }
+            ],
+            "record_index": 0,
+            "classification_label": "MISC",
+            "file_name": "input_1",
+            "document_path": "ib-internal/julia.fung_instabase.com/fs/Instabase Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/input/Sample file 2.JPG",
+            "checkpoint_results": {
+                "results": [
+                    {
+                        "valid": false,
+                        "msg": "Actual confidence 0.8053218722343445 was below the configured threshold 0.85",
+                        "type": "classification-custom",
+                        "details": {
+                            "err_msg": "Failed to deserialize JSON object. ERROR: Expecting value: line 1 column 1 (char 0)"
+                        }
+                    }
+                ],
+                "step_index": 0,
+                "record_index": 0,
+                "valid": false,
+                "flow_path_in_binary": "project/flows/codelabs.ibflow",
+                "step_id": "s17",
+                "validation_results": {
+                    "Other_Income": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Rents": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Recipient_Address": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Payer_Address": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Account_Number": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Payer_Phone_Number": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Medical_and_Healthcare_Payments": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Gross_Proceeds_Paid_to_an_Attorney": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Recipient_Name": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Royalties": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Payer_TIN": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Form_Type": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Section_409A_Deferrals": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Crop_Insurance_Proceeds": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Non_Qualified_Deferred_Compensation": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Fish_Purchased_for_Resale": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Recipient_TIN": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Fishing_Boat_Proceeds": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Federal_Income_Tax_Withheld": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "For_Calendar_Year": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Payer_Name": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Substitute_Payments_in_Lieu_of_Dividends": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    }
+                }
+            },
+            "flow_index": 0,
+            "file_index": 1,
+            "is_manually_reviewed": false,
+            "class_score": 0.8053219,
+            "current_step_id": "s17",
+            "is_human_corrected": false,
+            "is_deleted": false,
+            "absolute_ibocr_path": "ib-internal/vinay.thapa_instabase.com/fs/Instabase Drive/app-runs/99a2562c-abd0-4fcb-ae57-aeddc64679f7/328c6152-b747-4bc5-a612-13e374ee4b01/s1_process_files/Sample file 2.JPG.ibmsg",
+            "was_classified": true,
+            "is_finalized": true
+        },
+        {
+            "output_file_path": "ib-internal/vinay.thapa_instabase.com/fs/Instabase Drive/app-runs/99a2562c-abd0-4fcb-ae57-aeddc64679f7/328c6152-b747-4bc5-a612-13e374ee4b01/s17_apply_checkpoint/Sample file 3.jpeg.ibmsg",
+            "results": [
+                {
+                    "key": "Name",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Payer_Address",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Payer_Phone_Number",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Recipient_Name",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Recipient_Address",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Payer_TIN",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Recipient_TIN",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Account_Number",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Form_Name",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "For_Calendar_Year",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Unemployment_Compensation",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "State_or_Local_Income_Tax",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Federal_Income_Tax_Withheld",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "RTAA_Payments",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Taxable_Grants",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Agriculture_Payments",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                },
+                {
+                    "key": "Market_Gain",
+                    "value": "",
+                    "field_type": "TEXT",
+                    "model_confidence": 0.0
+                }
+            ],
+            "record_index": 0,
+            "classification_label": "Certain Government Payments",
+            "file_name": "input_2",
+            "document_path": "ib-internal/julia.fung_instabase.com/fs/Instabase Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/input/Sample file 3.jpeg",
+            "checkpoint_results": {
+                "results": [
+                    {
+                        "valid": false,
+                        "msg": "Actual confidence 0.36938780546188354 was below the configured threshold 0.95",
+                        "type": "classification-custom",
+                        "details": {
+                            "err_msg": "Failed to deserialize JSON object. ERROR: Expecting value: line 1 column 1 (char 0)"
+                        }
+                    }
+                ],
+                "step_index": 0,
+                "record_index": 0,
+                "valid": false,
+                "flow_path_in_binary": "project/flows/codelabs.ibflow",
+                "step_id": "s17",
+                "validation_results": {
+                    "Payer_Address": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "RTAA_Payments": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Name": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Agriculture_Payments": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Federal_Income_Tax_Withheld": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Market_Gain": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Form_Name": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Account_Number": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Unemployment_Compensation": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "For_Calendar_Year": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Payer_TIN": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Taxable_Grants": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "State_or_Local_Income_Tax": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.95",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Recipient_Address": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Payer_Phone_Number": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Recipient_TIN": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    },
+                    "Recipient_Name": {
+                        "valid": false,
+                        "failures": [
+                            {
+                                "condition_type": "confidence",
+                                "msg": "Actual confidence 0.0 was below the configured threshold 0.9",
+                                "blocked": false
+                            }
+                        ]
+                    }
+                }
+            },
+            "flow_index": 0,
+            "file_index": 2,
+            "is_manually_reviewed": false,
+            "class_score": 0.3693878,
+            "current_step_id": "s17",
+            "is_human_corrected": false,
+            "is_deleted": false,
+            "absolute_ibocr_path": "ib-internal/vinay.thapa_instabase.com/fs/Instabase Drive/app-runs/99a2562c-abd0-4fcb-ae57-aeddc64679f7/328c6152-b747-4bc5-a612-13e374ee4b01/s1_process_files/Sample file 3.jpeg.ibmsg",
+            "was_classified": true,
+            "is_finalized": true
+        }
+    ],
+    "binary_path": "system/global/fs/Instabase Drive/Applications/Deployed/All/99a2562c-abd0-4fcb-ae57-aeddc64679f7/bin/Tax_Form_1099-22.0.0.ibflowbin",
+    "job_id": "f23826fa-02cd-44dc-ae08-9f07b3a000fb",
+    "num_tasks": 3,
+    "has_more_tasks": false,
+    "next_offset": 3,
+    "can_resume": true,
+    "on_last_resumable_step": false
+}

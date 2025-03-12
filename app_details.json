@@ -1,0 +1,25 @@
+{
+    "appReleaseVersion": "",
+    "author": "sneha.vejju_instabase.com",
+    "contextAccount": "ib-internal",
+    "createdAtMs": "1741152676000",
+    "description": "No release notes",
+    "id": "99a2562c-abd0-4fcb-ae57-aeddc64679f7",
+    "isCustomizable": false,
+    "linkSharingMode": "OFF",
+    "metadata": "{\"authors\":[\"sneha.vejju_instabase.com\"],\"billing_model\":\"default\",\"has_project_snapshot\":true,\"icon\":\"icon.png\",\"is_copy_of_existing_app\":false,\"org_context_type\":\"ENTERPRISE\",\"project_id\":\"0194cabd-5b14-7c75-8249-82f8d69013c2\",\"results\":\"\",\"samples\":\"output/s1_process_files\",\"schema\":\"schema.json\"}",
+    "name": "Tax_Form_1099",
+    "owner": "sneha.vejju_instabase.com",
+    "ownerFullName": "Sneha Vejju",
+    "sharedAccounts": [
+        "ib-internal"
+    ],
+    "solutionType": "EXTRACTION",
+    "solution_path": "system/global/fs/Instabase Drive/Applications/Deployed/All/99a2562c-abd0-4fcb-ae57-aeddc64679f7",
+    "state": "PRODUCTION",
+    "summary": "US Tax form 1099",
+    "updateMode": "AUTO_UPDATE",
+    "updatedAtMs": "1741152691000",
+    "version": "22.0.0",
+    "visibility": "PRIVATE"
+}

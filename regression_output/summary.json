@@ -1,0 +1,9 @@
+{
+    "App_Name": "Tax_Form_1099",
+    "Test_Runner_Job_ID": "43ff8390-cac0-47ff-a982-fedd73e3fdb3",
+    "Application_Run_Job_ID": "f23826fa-02cd-44dc-ae08-9f07b3a000fb",
+    "App_UUID": "99a2562c-abd0-4fcb-ae57-aeddc64679f7",
+    "IB_Flow_Results_JSON_URL": "https://aihub.instabase.com/ib-internal/julia.fung_instabase.com/fs/Instabase%20Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/output/2025/03/12/Tax_Form_1099/ibflowresults_resp.json",
+    "Note": "'MISC'",
+    "Summary_Path": "ib-internal/julia.fung_instabase.com/fs/Instabase Drive/ground-truth-sets/533f3b2e-0039-4b24-b235-ef0446dffc58/creation-runs/1cc4719c-3fb2-4f4b-bc5b-e862486dca15/e844caf6-19da-4ed1-a827-b93f9a4f71bb/output/2025/03/12/Tax_Form_1099/summary.json"
+}
